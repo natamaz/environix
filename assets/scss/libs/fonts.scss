@@ -15,3 +15,19 @@
   url('../fonts/OpenSans-Regular.ttf') format('truetype');
 
 }
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('../fonts/OpenSans-Bold.eot');
+  src: local('OpenSans-Bold'), local('OpenSans-Bold'),
+  url('../fonts/OpenSans-Bold.woff') format('woff'),
+  url('../fonts/OpenSans-Bold.ttf') format('truetype');
+
+}
+@font-face {
+  font-family: 'OpenSans-BoldItalic';
+  src: url('../fonts/OpenSans-BoldItalic.eot');
+  src: local('OpenSans-BoldItalic'), local('OpenSans-BoldItalic'),
+  url('../fonts/OpenSans-BoldItalic.woff') format('woff'),
+  url('../fonts/OpenSans-BoldItalic.ttf') format('truetype');
+
+}

@@ -11,6 +11,7 @@ $(document).ready(function () {
         dots: false,
         nextArrow: '<button class="slick-arrow next"><span></span></button>',
         prevArrow: '<button class="slick-arrow prev"><span></span></button>',
+
         responsive: [
 
             {
@@ -34,7 +35,7 @@ $(document).ready(function () {
                 breakpoint: 768,
                 settings: {
 
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                 }
             },
@@ -59,15 +60,6 @@ $(document).ready(function () {
         ]
 
     });
-    <!-- конец слайдер -->
 
-    <!-- скролл-->
 
-    $(".up").on("click", function (event) {
-        event.preventDefault();
-        var id  = $(this).attr('href'),
-            top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 1000);
-    });
-    <!-- конец скролл -->
 });
